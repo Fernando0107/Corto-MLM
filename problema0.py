@@ -57,19 +57,29 @@ elif (x == 100):
 elif (x > 100 and x < 110):
     print(cien[0] + num[x - 101])
 elif (x > 110 and x < 120):
-    print(cien[0] + " y " + num2[x - 111])
+    print(cien[0] + " " + num2[x - 111])
 elif (x == 120):
     print(cien[0] + num20[0])
 elif (x > 120 and x < 130):
-    print(cien[0] + " y " + num20[x - 121] + " y " + num[x - 121])
+    print(cien[0] + " " + num20[x] + " y " + num[x - 121])
 elif (x == 130):
-    print(cien[0] + " y " + num30[0])
+    print(cien[0] + " " + num30[0])
 elif (x > 130 and x < 140):
-    print(cien[0] + " y " + num30[x - 121] + " y " + num[x - 131])
+    print(cien[0] + " " + num30[x - 131] + " y " + num[x - 131])
 elif (x == 140):
-    print(cien[0] + " y " + num40[0])
+    print(cien[0] + " " + num40[0])
 elif (x > 140 and x < 150):
-    print(cien[0] + " y " + num40[x - 121] + " y " + num[x - 141])
+    print(cien[0] + " " + num40[x - 141] + " y " + num[x - 141])
+elif (x == 150):
+    print(cien[0] + " " + num50[0])
+elif (x > 150 and x < 160):
+    print(cien[0] + " " + num50[x - 151] + " y " + num[x - 151])
+elif (x == 160):
+    print(cien[0] + " " + num60[0])
+elif (x > 160 and x < 170):
+    print(cien[0] + " " + num60[x - 161] + " y " + num[x - 161])
+
+
 elif (x == 1000):
     print("mil")
 else:
