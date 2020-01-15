@@ -13,8 +13,6 @@ num90 = ["noventa"]
 
 x = int(input("Ingrese un numero porfavor: "))
 
-#print(num[x - 1])
-
 if (x <= 10):
     print(num[x - 1])
 elif (x <= 19):
